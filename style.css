@@ -1,0 +1,59 @@
+.Body{
+  margin: 0;
+  background-image: linear-gradient( 91.3deg,  rgba(135,174,220,1) 1.5%, rgba(255,255,255,1) 100.3% );
+}
+
+.Header{
+  height: 4em;
+  width: 100%;
+  background-image: linear-gradient( 112.2deg,  rgba(86,223,223,1) 4.7%, rgba(2,28,186,1) 110.1% );
+  box-shadow: 0 0 5px #000;
+  display: flex;
+  align-items: center;
+}
+
+.Header_boton{
+  margin-left: 1em;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #000;
+  background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,1) 0%, rgba(21,38,82,1) 90% );
+}
+
+.Header_boton:hover{
+  cursor: pointer;
+  box-shadow: 0 0 7px #FFF;
+}
+
+.Header_menu{
+  height: 15.5em;
+  width: 10em;
+  background-color: rgba(0,0,0, 0.3);
+  position: absolute;
+  top:-12em;
+  z-index: -1;
+  transition: 400ms;
+}
+
+.Header_menu.is-active{
+  top: 4em;
+}
+
+.ulist{
+  list-style: none;
+}
+
+.list{
+  margin-bottom: .5em;
+}
+
+.ancla{
+  text-decoration: none;
+  color: honeydew;
+  font-family: Helvetica;
+}
+
+.ancla:hover{
+  text-shadow: 0 0 3px #000;
+}
